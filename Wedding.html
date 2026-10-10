@@ -113,7 +113,7 @@ input,textarea{width:100%;padding:12px;border-radius:10px;border:1px solid rgba(
 </div>
 
 <div class="music" id="mBtn" onclick="toggleMus()">♪</div>
-<audio id="aud" loop><source src="https://cdn.pixabay.com/download/audio/2022/03/24/audio_3a77a6a394.mp3" type="audio/mpeg"></audio>
+<audio id="aud" loop><source src="Sinarengan.mp3" type="audio/mpeg"></audio>
 
 <script>
 function openInv(){document.getElementById('cover').classList.add('hide');document.getElementById('aud').play().catch(()=>{});let q=new URLSearchParams(location.search).get('to');if(q)document.getElementById('guest').innerText=q;document.getElementById('mBtn').innerText='❚❚'}
